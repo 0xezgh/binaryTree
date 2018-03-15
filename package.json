@@ -1,0 +1,29 @@
+{
+  "name": "binarytree",
+  "version": "1.0.0",
+  "description": "small project to search the maximum in a binary tree of integers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"coverage": "istanbul cover node_modules/mocha/bin/_mocha --recursive && istanbul check-coverage --statement 95"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezdin/binaryTree.git"
+  },
+    "dependencies": {
+    "mocha": "^3.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  },
+  "author": "ezdin GHARBI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezdin/binaryTree/issues"
+  },
+  "homepage": "https://github.com/ezdin/binaryTree#readme"
+}

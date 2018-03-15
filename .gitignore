@@ -1,0 +1,12 @@
+# Logs
+npm-debug.log*
+
+# Coverage (istanbul)
+coverage
+
+# Dependency
+node_modules
+
+# Flow definitions
+flow-typed
+
